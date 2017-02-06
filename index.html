@@ -157,7 +157,7 @@
     </div>
   </main>
   <div class="fixed-action-btn" style="bottom: 45px; right: 24px;" data-pg-collapsed> 
-    <a class="btn-floating btn-large red"><i class="large material-icons">play_arrow</i> </a> 
+    <a class="btn-floating btn-large red" id="paly-btn"><i class="large material-icons">play_arrow</i> </a> 
     <ul> 
         <li>
             <a class="btn-floating red"><i class="large material-icons">play_arrow</i></a>
@@ -191,7 +191,10 @@
     <script type="text/javascript" src="script/bar-ui.js"></script>
     <script>
     $(".button-collapse").sideNav();
-      
+    $('#play-btn').click(function() {
+      //$('#display_advance').toggle('1000');
+      $("i", this).toggleClass("play-arrow pause");
+    });  
     </script>
   </footer>
   
