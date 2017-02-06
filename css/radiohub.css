@@ -15,7 +15,7 @@ header, main, footer {
    }
  }
 @media only screen and (max-width : 500px) {
-   h1.headerh1.header {
+   h1.header {
      font-size: 3rem;
    }
  }
