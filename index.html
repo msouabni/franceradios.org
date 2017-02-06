@@ -192,6 +192,7 @@
     <script>
     $(".button-collapse").sideNav();
     $('#play-btn').click(function() {
+      console.log("function clicked");
       $("i", this).toggleClass("play-arrow pause");
       window.sm2BarPlayers[0].actions.play();
     });  
