@@ -168,7 +168,7 @@
         </li>         
 
         <li>
-            <a class="btn-floating green" href="#" onclick="window.sm2BarPlayers[0].actions.play()">play</i></a>
+            <a class="btn-floating green" href="#" onclick="window.sm2BarPlayers[0].actions.play()">play</a>
         </li>         
 
         <li>
@@ -176,7 +176,7 @@
         </li>         
     </ul>     
 </div>
-  
+  <a class="auto-play-test" href="#" onclick="window.sm2BarPlayers[0].actions.play()">play Test</a>
   
   
   <footer>
@@ -194,7 +194,7 @@
     $(document).ready(function(){
     // we call the function
       //window.sm2BarPlayers[0].actions.play();
-      $("body > div.fixed-action-btn > ul > li:nth-child(3) > a").click();
+      $(".auto-play-test").click();
     });
       
     </script>
