@@ -40,3 +40,6 @@ h1.header
 .sm2-bar-ui .sm2-inline-texture {
  background: transparent;
 }
+i.large.material-icons {
+    font-size: 3rem;
+}
