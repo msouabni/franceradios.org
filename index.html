@@ -157,22 +157,22 @@
     </div>
   </main>
   <div class="fixed-action-btn" style="bottom: 45px; right: 24px;" data-pg-collapsed> 
-    <a class="btn-floating btn-large red"><i class="large material-icons">play_arrow</i> </a> 
+    <a class="btn-floating btn-large red"><i class="large material-icons">radio</i> </a> 
     <ul> 
         <li>
-            <a class="btn-floating red" href="#" onclick="window.sm2BarPlayers[0].actions.play()"><i class="large material-icons">play_arrow</i></a>
+            <a class="btn-floating red" href="#"><i class="large material-icons">search</i></a>
         </li>         
 
         <li>
-            <a class="btn-floating yellow darken-1 sm2-inline-button play-pause" href="#play"></a>
+            <a class="btn-floating yellow darken-1" href="#">TOP10</a>
         </li>         
 
         <li>
-            <a class="btn-floating green" href="#" onclick="window.sm2BarPlayers[0].actions.play()">play</a>
+            <a class="btn-floating blue" href="#" onclick="window.sm2BarPlayers[0].actions.play()"><i class="large material-icons">pause</i></a>
         </li>         
 
         <li>
-            <a class="btn-floating blue" id="play-btn" href="#"><i class="large material-icons">play_arrow</i></a>
+            <a class="btn-floating green" href="#" onclick="window.sm2BarPlayers[0].actions.play()"><i class="large material-icons">play_arrow</i></a>
         </li>         
     </ul>     
 </div>
@@ -196,12 +196,12 @@
       alert('I am btn');
       return false;
     }*/
-    $('#play-btn').click(function() {
+    /*$('#play-btn').click(function() {
       console.log("function clicked");
       $("i", this).toggleClass("play-arrow pause");
       alert($("i", this));
       window.sm2BarPlayers[0].actions.play();
-    });  
+    }); */ 
     </script>
   </footer>
   
