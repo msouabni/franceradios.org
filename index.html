@@ -190,6 +190,12 @@
     <script type="text/javascript" src="script/bar-ui.js"></script>
     <script>
     $(".button-collapse").sideNav();
+    var el = document.getElementById('play-btn'); 
+    el.onclick = playfct;
+    function playfct() {
+      alert('I am btn');
+      return false;
+    }
     $('#play-btn').click(function() {
       console.log("function clicked");
       $("i", this).toggleClass("play-arrow pause");
