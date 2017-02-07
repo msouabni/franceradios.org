@@ -43,3 +43,6 @@ h1.header
 i.large.material-icons {
     font-size: 2.5rem;
 }
+a.button-collapse.top-nav i {
+    font-size: 32px;
+}
