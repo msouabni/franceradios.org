@@ -499,7 +499,9 @@
     </table>
 <script>
   $(document).ready(function() {
-    $('#example').DataTable();
+    $('#example').DataTable({
+      "pageLength": -1
+    });
 } );
 </script>
 </body>
