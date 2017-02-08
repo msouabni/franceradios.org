@@ -500,7 +500,9 @@
 <script>
   $(document).ready(function() {
     $('#example').DataTable({
-      "pageLength": -1
+      "pageLength": -1,
+      "lengthChange" : false,
+      "paging":   false
     });
 } );
 </script>
